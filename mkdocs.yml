@@ -20,20 +20,14 @@ plugins:
     #        prebuild_index: true
       lang:
         - en
-#For read the docs
-# theme:
-#     name: readthedocs
-#     custom_dir: custom_theme/
-#     highlightjs: true
-#     sticky_navigation: false
-# markdown_extensions:
-#     - pymdownx.emoji:
-#        emoji_index: !!python/name:pymdownx.emoji.twemoji
-#        emoji_generator: !!python/name:pymdownx.emoji.to_alt
-#     - toc:
-#         permalink: true
-
-#For material
+extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de
 theme:
   name: material
   custom_dir: custom_theme/
